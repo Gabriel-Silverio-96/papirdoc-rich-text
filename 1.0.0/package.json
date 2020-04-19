@@ -1,0 +1,10 @@
+{
+    "system": "papirDoc",
+    "author": {
+        "name": "Gabriel Silvério",
+        "github": "Gabriel-Silverio-96"
+    },
+    "version": "1.0.0",
+    "language": ["HTML", "CSS", "JS"],
+    "last-update": "19/04/2020"
+}
