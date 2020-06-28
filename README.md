@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="papirDoc logo" src="https://user-images.githubusercontent.com/53228013/85954607-19862c80-b94f-11ea-95b4-41d8a50da0fe.png" width="200px" />
+    <img alt="papirDoc logo" src="https://user-images.githubusercontent.com/53228013/85954607-19862c80-b94f-11ea-95b4-41d8a50da0fe.png" width="320px" />
 </p>
 
 <h1 align="center">
