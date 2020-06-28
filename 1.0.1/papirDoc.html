@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PapirDoc</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="wwwroot/css/style.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>    
+    <header class="header-fixed">
+        <div class="container">
+            <nav>
+                <img class="logo" src="wwwroot/img/logo-papirDoc.svg" title="Logo Papir">
+                <div class="papir-btn">
+                    <button class="btnFunc" title="Negrito">N</button>
+                    <button class="btnFunc btn-italic" title="Itálico">I</button>
+                    <button class="btnFunc btn-strike">S</button>
+                    <!--Fonts-->
+                    <select id="fontName" title="Fonte">                        
+                    </select>
+                    <!--Font size-->
+                    <div class="font-size">
+                        <span>AA</span>
+                        <select id="fontSize" title="Tamanho da fonte">                            
+                        </select>
+                    </div>
+                    <!--Font Color-->
+                    <div class="font-style">
+                        <span>A</span>
+                        <input type="color" id="fontColor" title="Cor do texto">
+                    </div>
+                    <!--Text marker-->
+                    <div class="font-style">
+                        <img src="wwwroot/img/icons/icon-marker.svg">
+                        <input type="color" id="textMarker" title="Marcador de texto">
+                    </div>
+                    <!--Text Align left-->
+                    <button class="btnFunc">
+                        <img src="wwwroot/img/icons/icon-text-align.svg" title="Alinhar a esquerda">
+                    </button>
+
+                    <!--Text Align center-->
+                    <button class="btnFunc">
+                        <img src="wwwroot/img/icons/icon-text-align–center.svg" title="Alinhar ao centro">
+                    </button>
+                    <!--Text Align right-->
+                    <button class="btnFunc">
+                        <img src="wwwroot/img/icons/icon-text-align.svg" title="Alinhar a direita" style="transform: scaleX(-1);">
+                    </button>
+                    <!--Add image-->
+                    <button id="addImage">
+                        <img src="wwwroot/img/icons/icon-image.svg" title="Adicionar imagem">
+                    </button>
+                    <!--Select text-->
+                    <button class="btnFunc">
+                        <img src="wwwroot/img/icons/icon-select.svg" title="Selecionar texto">
+                    </button>
+                </div>                
+            </nav>
+        </div>
+    </header>
+    <!--Paper-->
+    <div class="paper">
+        <p contenteditable="true" id="paperContent"></p>
+    </div>
+<footer>    
+    <div class="version">
+        <h6>v1.0.1</h6>
+    </div>
+</footer>
+
+    <script src="wwwroot/js/papirDoc.js"></script>
+    <script src="wwwroot/js/font.js"></script>
+    <script src="wwwroot/js/colors.js"></script>
+    <script src="wwwroot/js/imageAdd.js"></script>
+</body>
+
+</html>

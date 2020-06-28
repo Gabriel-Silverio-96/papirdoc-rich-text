@@ -1,0 +1,9 @@
+{
+  "name": "papirDoc",
+  "version": "1.0.1",
+  "description": "Projeto rich text para edicão e criação de documentos",
+  "main": "papirDoc.html",
+  "repository": "https://github.com/Gabriel-Silverio-96/papirdoc-rich-text.git",
+  "author": "Gabriel Silvério",
+  "license": "MIT"
+}
