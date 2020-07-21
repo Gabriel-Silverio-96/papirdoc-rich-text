@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="14" viewBox="0 0 13 14">
+  <defs>
+    <clipPath id="clip-icon-marker">
+      <rect width="13" height="14"/>
+    </clipPath>
+  </defs>
+  <g id="icon-marker" clip-path="url(#clip-icon-marker)">
+    <rect width="13" height="14" fill="#fff"/>
+    <rect id="Rectangle_35" data-name="Rectangle 35" width="4.594" height="10.023" rx="2" transform="translate(9.81 0.117) rotate(45)"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M1.611,1.789a1,1,0,0,1,1.789,0l.888,1.775a1,1,0,0,1-.894,1.447H1.618A1,1,0,0,1,.724,3.564Z" transform="translate(2.132 14.883) rotate(-135)"/>
+  </g>
+</svg>
