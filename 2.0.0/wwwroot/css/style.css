@@ -3,13 +3,15 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 body {
     background-color: #F2F1F1;
     font-family: Arial;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: auto;
 }
@@ -26,7 +28,7 @@ header {
 }
 
 .logo {
-    width: 140px;
+    width: 100px;
 }
 
 .header-efect {
@@ -37,9 +39,9 @@ header {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: auto;
-    align-items: center;
+    align-items: center;    
 }
 
 .papir-btn {
@@ -53,16 +55,19 @@ button, input, select {
 
 button {
     background-color: #ffffff;
-    border: 1.4px solid #000000;
+    /*border: 1.4px solid #000000; */
     width: 32px;
     height: 30px;
     font-size: 15px;
     border-radius: 8px;
     margin-right: 15px;
+    border: 0;
 }
 
 button:disabled {
     background-color:#f2f1f1;
+    border: 0;
+    border-radius: 50%;
 }
 
 button, nav span{
@@ -70,35 +75,80 @@ button, nav span{
     font-weight: 500;
 }
 
-.btn-italic {     
+/* .btn-italic {     
     font-style: italic;
 }
 
 .btn-strike {
     text-decoration: line-through;
-}
+} */
 
-select {
-    background-color: #ffffff;
-    border: 1.4px solid #000000;
+#fontName {
+    appearance:none;
+    background-color: #0088FF;
+    text-indent: 20px;
+    border: 0;
     font-size: 15px;
-    border-radius: 6px;
+    border-radius: 30px;
     margin-right: 15px;
+    width: 115px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+
+
+    background-image:
+    linear-gradient(45deg, transparent 50%, #ffffff 50%),
+    linear-gradient(135deg, #ffffff 50%, transparent 50%);
+    
+  background-position:
+    calc(100% - 20px) calc(1em + -3px),
+    calc(100% - 15px) calc(1em + -3px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
 }
 
 .font-size {
-    background-color: #ffffff;
-    border: 1.4px solid #000000;
-    font-size: 15px;
-    border-radius: 6px;
+    background-color: #0088FF;
+    border: 0;    
+    border-radius: 30px;
+    font-size: 15px;    
     margin-right: 15px;
-    padding: 0 5px;
+    padding: 0 15px;
+}
+
+.font-size span {
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;    
 }
 
 .font-size select{
+    appearance: none;
     height: 100%;
+    width: 30px;
     border: 0;
     margin-right: 0px;
+    background-color: #0088FF;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    text-indent: 5px;
+
+    background-image:
+    linear-gradient(45deg, transparent 50%,#ffffff 50%),
+    linear-gradient(135deg,#ffffff 50%, transparent 50%);
+    
+    background-position:
+        calc(160% - 20px) calc(1em + -1px),
+        calc(160% - 15px) calc(1em + -1px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
 }
 
 /* input {
@@ -107,26 +157,61 @@ select {
 
 .font-style {
     background-color: #ffffff;
-    border: 1.4px solid #000000;
+    border: 1.48px solid #000000;
     font-size: 15px;
-    border-radius: 6px;
-    margin-right: 15px;
-    padding: 0 5px;
+    border-radius: 40px;
+    margin-right: 15px;    
     align-items: center;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 63px;
 }
 
+.font-style .icon {
+    margin-right: 8px;
+    font-size: 18px;
+}
 .font-style input{
     background-color: none;
     border: none;
 }
 
-.font-style input[type=color] {
+/* .font-style input[type=color] {
     border-radius: 50px;
     background-color: #ffffff;
     width: 25px;
     margin-left: 5px;
-}
+} */
+
+
+
+
+
+.input-color-container {
+    position: relative;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;    
+    border-radius: 40px;
+    border: 1px solid #000000;
+  }
+  
+  .input-color {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    width: 56px;
+    height: 56px;
+  }
+  
+  .input-color-label {
+    cursor: pointer;
+    text-decoration: underline;    
+  }
+
+
+
 
 .active {
     background-color: #C4F7FF !important;
