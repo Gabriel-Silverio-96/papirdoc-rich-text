@@ -19,6 +19,8 @@ O projeto atualmente está na versão 1.0.1, sendo realizado a organização dos
   <img alt="Banner papirDoc" src="https://user-images.githubusercontent.com/53228013/85954743-f6a84800-b94f-11ea-8f81-b08b4773cf42.png">
 </p>
 
-## ⭕ Observação
+## 👀 Observação
 
 A versão está mais instável, utilizando o navegador Google Chrome.
+___
+Versão 2.0.0, em desenvolvimento
