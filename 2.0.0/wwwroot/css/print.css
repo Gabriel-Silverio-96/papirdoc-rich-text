@@ -1,0 +1,16 @@
+@media print {
+    header {
+        display: none !important;
+    }
+
+    .paper {
+        margin-top: 0;
+        padding: 25px 15px;
+        box-shadow: none !important;
+    }
+
+    footer {
+        display: none !important;
+    }
+}
+

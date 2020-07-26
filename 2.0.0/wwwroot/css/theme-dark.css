@@ -1,0 +1,24 @@
+.body-dark {
+    background-color: #44475A;
+}
+
+.body-dark .paper {
+    background-color: #282A36;
+    color: #ffffff;
+}
+
+.header-dark {
+    background-color: #282A36;
+}
+
+.header-dark nav .papir-btn button {
+    background-color: #282a36;
+}
+
+.header-dark nav .papir-btn button span::before {
+    color: #ffffff
+}
+
+.header-dark nav .papir-btn .font-style {
+    background-color: #0088ff;
+}

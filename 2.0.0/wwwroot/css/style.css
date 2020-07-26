@@ -53,9 +53,14 @@ button, input, select {
     outline: none;
 }
 
-button {
+select option {
     background-color: #ffffff;
-    /*border: 1.4px solid #000000; */
+    color: #000;
+    padding: 25px;
+}
+
+button {
+    background-color: #ffffff;    
     width: 32px;
     height: 30px;
     font-size: 15px;
@@ -75,14 +80,6 @@ button, nav span{
     font-weight: 500;
 }
 
-/* .btn-italic {     
-    font-style: italic;
-}
-
-.btn-strike {
-    text-decoration: line-through;
-} */
-
 #fontName {
     appearance:none;
     background-color: #0088FF;
@@ -100,15 +97,15 @@ button, nav span{
     linear-gradient(45deg, transparent 50%, #ffffff 50%),
     linear-gradient(135deg, #ffffff 50%, transparent 50%);
     
-  background-position:
-    calc(100% - 20px) calc(1em + -3px),
-    calc(100% - 15px) calc(1em + -3px),
-    calc(100% - 2.5em) 0.5em;
-  background-size:
-    5px 5px,
-    5px 5px,
-    1px 1.5em;
-  background-repeat: no-repeat;
+    background-position:
+        calc(100% - 20px) calc(1em + -3px),
+        calc(100% - 15px) calc(1em + -3px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
 }
 
 .font-size {
@@ -151,10 +148,6 @@ button, nav span{
     background-repeat: no-repeat;
 }
 
-/* input {
-    margin-right: 15px;
-} */
-
 .font-style {
     background-color: #ffffff;
     border: 1.48px solid #000000;
@@ -172,21 +165,11 @@ button, nav span{
     margin-right: 8px;
     font-size: 18px;
 }
+
 .font-style input{
     background-color: none;
     border: none;
 }
-
-/* .font-style input[type=color] {
-    border-radius: 50px;
-    background-color: #ffffff;
-    width: 25px;
-    margin-left: 5px;
-} */
-
-
-
-
 
 .input-color-container {
     position: relative;
@@ -197,24 +180,21 @@ button, nav span{
     border: 1px solid #000000;
   }
   
-  .input-color {
+.input-color {
     position: absolute;
     right: -8px;
     top: -8px;
     width: 56px;
     height: 56px;
-  }
-  
-  .input-color-label {
+}
+
+.input-color-label {
     cursor: pointer;
     text-decoration: underline;    
-  }
-
-
-
+}
 
 .active {
-    background-color: #C4F7FF !important;
+    background-color: #ffce00 !important;
     color: #0A85FF !important;
     border-color: #0A85FF !important;
 }

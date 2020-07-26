@@ -22,7 +22,9 @@ const command = [
     'justifyLeft',
     'justifyCenter',
     'justifyRight',
-    'selectAll'
+    'selectAll',
+    'undo',
+    'redo'
 ];
 
 for (let i = 0; i < btnFunc.length; i++) {

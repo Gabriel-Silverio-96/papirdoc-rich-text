@@ -10,17 +10,43 @@
 
 ## 📝 Projeto 
 
-O projeto atualmente está na versão 1.0.1, sendo realizado a organização dos <code>execCommand</code> e correções de bugs, como:
+  O projeto **papirDoc** é um editor de texto, que foi construído com JS, CSS e HTML. A versão 1.0.0 foi introduzida funcionalidades de edição de texto, como;
+
+- Negrito
+- Itálico
+- Strike
+- Font family
+- Font size
+- Font color 
+- Destaque no texto
+- Alinhamento a esquerda
+- Alinhamento a direita
+- Alinhamento ao centro
+- Inserção de imagem 
+- Seleção do texto
+
+Versão 1.0.1, sendo realizado a organização dos <code>execCommand</code> e correções de bugs, como:
 
 - Correções color picker
 - Ajustes na estrutura
 
+---
+
+Versão 2.0.0
+
+- Atualização no layout
+- Novos icones
+- Adicionado icoMoon [sobre](https://icomoon.io/docs.html)
+- Modo noturno
+- Reorganização dos botões header 
+- Adicionado botão, voltar e avançar
+
 <p align="center">
-  <img alt="Banner papirDoc" src="https://user-images.githubusercontent.com/53228013/85954743-f6a84800-b94f-11ea-8f81-b08b4773cf42.png">
+  <img alt="Banner papirDoc" src="https://user-images.githubusercontent.com/53228013/88484118-c9e15380-cf42-11ea-9e95-f06974cf2c83.png">
 </p>
 
 ## 👀 Observação
 
 A versão está mais instável, utilizando o navegador Google Chrome.
-___
-Versão 2.0.0, em desenvolvimento
+---
+⚙️ O projeto segue em evolução
