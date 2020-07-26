@@ -25,6 +25,8 @@
 - Inserção de imagem 
 - Seleção do texto
 
+---
+
 Versão 1.0.1, sendo realizado a organização dos <code>execCommand</code> e correções de bugs, como:
 
 - Correções color picker
