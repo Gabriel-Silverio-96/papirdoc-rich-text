@@ -49,6 +49,8 @@ Versão 2.0.0
 
 ## 👀 Observação
 
-A versão está mais instável, utilizando o navegador Google Chrome.
+### A versão está mais instável, utilizando o navegador Google Chrome.
 ---
 ⚙️ O projeto segue em evolução
+
+🌐 [Landing Page do projeto](https://gabriel-silverio-96.github.io/papirdoc-landingpage/)
